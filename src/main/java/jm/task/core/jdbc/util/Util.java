@@ -20,7 +20,7 @@ public class Util {
             System.out.println("Соединение УСТАНОВЛЕНО!");
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
-            System.out.println("Соединение ОШИБКА!!!");
+            System.out.println("В соединении произошла ОШИБКА!!!");
         }
         return connection;
     }
