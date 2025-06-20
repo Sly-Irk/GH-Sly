@@ -13,7 +13,7 @@ public class Util {
     private static final String PORT = "3306";
     private static final String DB_NAME = "test";
     private static final String LOGIN = "root";
-    private static final String PASS = "password";
+    private static final String PASS = "root";
     private static SessionFactory sessionFactory = null;
 
     public static SessionFactory getConnection() {
